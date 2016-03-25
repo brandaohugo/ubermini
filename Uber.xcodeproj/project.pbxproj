@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB7FD221C9DE09800B184C8 /* AddressTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7FD211C9DE09800B184C8 /* AddressTableView.swift */; };
+		3DB9E1EF1CA0CFF3000B47C2 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9E1EE1CA0CFF3000B47C2 /* ReviewViewController.swift */; };
+		3DB9E1F11CA0DF99000B47C2 /* InProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9E1F01CA0DF99000B47C2 /* InProgressViewController.swift */; };
 		3DD2C6221C9C635B001891E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6211C9C635B001891E1 /* AppDelegate.swift */; };
 		3DD2C6241C9C635B001891E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6231C9C635B001891E1 /* ViewController.swift */; };
-		3DD2C6271C9C635B001891E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2C6251C9C635B001891E1 /* Main.storyboard */; };
 		3DD2C62A1C9C635B001891E1 /* Uber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6281C9C635B001891E1 /* Uber.xcdatamodeld */; };
 		3DD2C62C1C9C635B001891E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2C62B1C9C635B001891E1 /* Assets.xcassets */; };
 		3DD2C62F1C9C635B001891E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2C62D1C9C635B001891E1 /* LaunchScreen.storyboard */; };
 		3DD2C63A1C9C635B001891E1 /* UberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6391C9C635B001891E1 /* UberTests.swift */; };
 		3DD2C6451C9C635B001891E1 /* UberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6441C9C635B001891E1 /* UberUITests.swift */; };
+		3DD2C6531C9C6456001891E1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2C6521C9C6456001891E1 /* Data.swift */; };
+		3DE82FB81CA057E3001EE94A /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE82FB71CA057E3001EE94A /* RequestViewController.swift */; };
+		3DF87BD61CA1900A00804D40 /* Service.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DF87BD51CA1900A00804D40 /* Service.plist */; };
+		3DFB3E391CA209050094A99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFB3E371CA209050094A99C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB7FD211C9DE09800B184C8 /* AddressTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableView.swift; sourceTree = "<group>"; };
+		3DB9E1EE1CA0CFF3000B47C2 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		3DB9E1F01CA0DF99000B47C2 /* InProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressViewController.swift; sourceTree = "<group>"; };
 		3DD2C61E1C9C635B001891E1 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD2C6211C9C635B001891E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD2C6231C9C635B001891E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DD2C6261C9C635B001891E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DD2C6291C9C635B001891E1 /* Uber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Uber.xcdatamodel; sourceTree = "<group>"; };
 		3DD2C62B1C9C635B001891E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD2C62E1C9C635B001891E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		3DD2C6401C9C635B001891E1 /* UberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD2C6441C9C635B001891E1 /* UberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberUITests.swift; sourceTree = "<group>"; };
 		3DD2C6461C9C635B001891E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD2C6521C9C6456001891E1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3DE82FB71CA057E3001EE94A /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		3DF87BD51CA1900A00804D40 /* Service.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Service.plist; sourceTree = "<group>"; };
+		3DFB3E381CA209050094A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,19 @@
 		3DD2C6201C9C635B001891E1 /* Uber */ = {
 			isa = PBXGroup;
 			children = (
+				3DFB3E371CA209050094A99C /* Main.storyboard */,
 				3DD2C6211C9C635B001891E1 /* AppDelegate.swift */,
+				3DB7FD211C9DE09800B184C8 /* AddressTableView.swift */,
 				3DD2C6231C9C635B001891E1 /* ViewController.swift */,
-				3DD2C6251C9C635B001891E1 /* Main.storyboard */,
+				3DE82FB71CA057E3001EE94A /* RequestViewController.swift */,
+				3DB9E1F01CA0DF99000B47C2 /* InProgressViewController.swift */,
+				3DB9E1EE1CA0CFF3000B47C2 /* ReviewViewController.swift */,
 				3DD2C62B1C9C635B001891E1 /* Assets.xcassets */,
 				3DD2C62D1C9C635B001891E1 /* LaunchScreen.storyboard */,
 				3DD2C6301C9C635B001891E1 /* Info.plist */,
 				3DD2C6281C9C635B001891E1 /* Uber.xcdatamodeld */,
+				3DD2C6521C9C6456001891E1 /* Data.swift */,
+				3DF87BD51CA1900A00804D40 /* Service.plist */,
 			);
 			path = Uber;
 			sourceTree = "<group>";
@@ -196,6 +214,7 @@
 				TargetAttributes = {
 					3DD2C61D1C9C635B001891E1 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 73F9YMECPZ;
 					};
 					3DD2C6341C9C635B001891E1 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF87BD61CA1900A00804D40 /* Service.plist in Resources */,
 				3DD2C62F1C9C635B001891E1 /* LaunchScreen.storyboard in Resources */,
 				3DD2C62C1C9C635B001891E1 /* Assets.xcassets in Resources */,
-				3DD2C6271C9C635B001891E1 /* Main.storyboard in Resources */,
+				3DFB3E391CA209050094A99C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +281,11 @@
 			files = (
 				3DD2C62A1C9C635B001891E1 /* Uber.xcdatamodeld in Sources */,
 				3DD2C6241C9C635B001891E1 /* ViewController.swift in Sources */,
+				3DB9E1EF1CA0CFF3000B47C2 /* ReviewViewController.swift in Sources */,
+				3DE82FB81CA057E3001EE94A /* RequestViewController.swift in Sources */,
+				3DB9E1F11CA0DF99000B47C2 /* InProgressViewController.swift in Sources */,
+				3DD2C6531C9C6456001891E1 /* Data.swift in Sources */,
+				3DB7FD221C9DE09800B184C8 /* AddressTableView.swift in Sources */,
 				3DD2C6221C9C635B001891E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +322,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DD2C6251C9C635B001891E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DD2C6261C9C635B001891E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DD2C62D1C9C635B001891E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3DD2C62E1C9C635B001891E1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DFB3E371CA209050094A99C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFB3E381CA209050094A99C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Uber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dukaczewski.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Uber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dukaczewski.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +517,7 @@
 				3DD2C64B1C9C635B001891E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DD2C64C1C9C635B001891E1 /* Build configuration list for PBXNativeTarget "UberTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +526,7 @@
 				3DD2C64E1C9C635B001891E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DD2C64F1C9C635B001891E1 /* Build configuration list for PBXNativeTarget "UberUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +535,7 @@
 				3DD2C6511C9C635B001891E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
